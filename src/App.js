@@ -1,14 +1,18 @@
+// eslint-disable-next-line
 import logo from './logo.svg';
 import './App.css';
+import Left from './components/Left';
+import Right from './components/Right';
 
 function App() {
   return (
     <div className="App">
-      <main className="App-Main">
-        <div>
-            Xbox-UI
+        <div className="column left">
+            <Left />
         </div>
-      </main>
+        <div className="column right">
+            <Right />
+        </div>
     </div>
   );
 }
