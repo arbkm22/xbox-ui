@@ -1,0 +1,27 @@
+.left-menu-items {
+  padding-left: 4.5rem;
+}
+
+.gamertag {
+  padding-top: 40px;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.gamertag > img {
+  height: 60px;
+  border-radius: 50%;
+}
+
+.gamertag > p {
+  padding-left: 0.8rem;
+  font-size: 1.30rem;
+  color: darkgray;
+}
+
+.left-bottom {
+  bottom: 0;
+  position: absolute;
+  padding-bottom: 4rem;
+}

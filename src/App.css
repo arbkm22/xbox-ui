@@ -20,6 +20,14 @@
   color: white;
 }
 
+.left-rule {
+  padding: 1.125rem 2.5rem;
+}
+
+.left-rule > hr {
+  border: 1px solid darkgray;
+}
+
 /* Right Section */
 
 .right {
