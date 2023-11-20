@@ -7,6 +7,7 @@
   display: flex;
   justify-content: left;
   align-items: center;
+  margin-bottom: 3.5rem;
 }
 
 .gamertag > img {
@@ -18,6 +19,12 @@
   padding-left: 0.8rem;
   font-size: 1.30rem;
   color: darkgray;
+}
+
+.menu-items {
+  padding-top: 1.125rem;
+  padding-bottom: 1.125rem;
+  font-size: 1.65rem;
 }
 
 .left-bottom {

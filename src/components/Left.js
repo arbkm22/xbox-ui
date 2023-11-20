@@ -9,23 +9,30 @@ function Left() {
                     <img src={gamerpic}></img>
                     <p>bmahto</p>
                 </div>
+                {/* Top Section */}
                 <div className="left-menu-items">
-                    Games
+                    <div className="menu-items">
+                        Games
+                    </div>
+                    <div className="menu-items">
+                        Apps
+                    </div>
+                    <div className="menu-items">
+                        Groups
+                    </div>
                 </div>
-                <div className="left-menu-items">
-                    Apps
-                </div>
-                <div className="left-menu-items">
-                    Groups
-                </div>
+                {/* Horizontal Rule */}
                 <div className="left-rule">
                     <hr></hr>
                 </div>
+                {/* Bottom Section */}
                 <div className="left-menu-items">
-                    Full Library
-                </div>
-                <div className="left-menu-items">
-                    Manage
+                    <div className="menu-items">
+                        Full Library
+                    </div>
+                    <div className="menu-items">
+                        Manage
+                    </div>
                 </div>
             </div>
             <div className="left-bottom">
