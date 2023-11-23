@@ -1,5 +1,11 @@
 import './Left.css'
 import gamerpic from '../assets/gamerpic.jpg';
+import console from '../assets/console.png';
+import app from '../assets/app.png';
+import briefcase from '../assets/briefcase.png';
+import library from '../assets/library.png';
+import group from '../assets/group.png'
+
 
 function Left() {
     return (
@@ -12,12 +18,15 @@ function Left() {
                 {/* Top Section */}
                 <div className="left-menu-items">
                     <div className="menu-items">
+                        <img src={console} className="icons"></img> 
                         Games
                     </div>
                     <div className="menu-items">
+                        <img src={app} className="icons"></img>
                         Apps
                     </div>
                     <div className="menu-items">
+                    <img src={group} className="icons"></img> 
                         Groups
                     </div>
                 </div>
@@ -28,9 +37,11 @@ function Left() {
                 {/* Bottom Section */}
                 <div className="left-menu-items">
                     <div className="menu-items">
+                        <img src={library} className="icons"></img> 
                         Full Library
                     </div>
                     <div className="menu-items">
+                        <img src={briefcase} className="icons"></img> 
                         Manage
                     </div>
                 </div>
