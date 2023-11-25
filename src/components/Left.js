@@ -11,7 +11,7 @@ function Left() {
     return (
         <div className="left-side">
             <div className="gamertag left-icons">
-                <img src={gamerpic}></img>
+                <img src={gamerpic} alt="gamerpic"></img>
                 <p className="left-text">bmahto</p>
             </div>
             <div className="menu-items">
