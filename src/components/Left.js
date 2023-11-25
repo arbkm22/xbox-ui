@@ -16,33 +16,33 @@ function Left() {
             </div>
             <div className="menu-items">
                 <div className="menu-item-content">
-                    <img src={console} className="icons"></img>
+                    <img src={console} className="icons" alt="icnon"></img>
                     <p className="left-text">Games</p>
                 </div>
                     <p className="right-num">34</p>
             </div>
             <div className="menu-items">
                 <div className="menu-item-content">
-                    <img src={app} className="icons"></img>
+                    <img src={app} className="icons" alt="icnon"></img>
                     <p className="left-text">Apps</p>
                 </div>
                 <p className="right-num">19</p>
             </div>
             <div className="menu-items">
                 <div className="menu-item-content">
-                    <img src={group} className="icons"></img>
+                    <img src={group} className="icons" alt="icnon"></img>
                     <p className="left-text">Groups</p>
                 </div>
                 <p className="right-num">2</p>
             </div>
             <hr className="left-hr"></hr>
             <div className="menu-items">
-                <img src={library} className="icons"></img>
+                <img src={library} className="icons" alt="icnon"></img>
                 <p className="left-text">Full Library</p>
 
             </div>
             <div className="menu-items">
-                <img src={briefcase} className="icons"></img>
+                <img src={briefcase} className="icons" alt="icnon"></img>
                 <p className="left-text">Manage</p>
 
             </div>
