@@ -1,9 +1,5 @@
-.left-menu-items {
-  padding-left: 4.5rem;
-}
-
 .gamertag {
-  padding-top: 40px;
+  padding-top: 5rem;
   display: flex;
   justify-content: left;
   align-items: center;
@@ -16,23 +12,19 @@
 }
 
 .gamertag > p {
-  padding-left: 0.8rem;
   font-size: 1.30rem;
+  padding-left: 1.2rem;
   color: darkgray;
 }
 
 .menu-items {
-  padding-top: 1.125rem;
-  padding-bottom: 1.125rem;
+  width: 100%;
   font-size: 1.65rem;
+  color: white;
   display: flex;
   align-items: center;
-}
-
-.left-bottom {
-  bottom: 0;
-  position: absolute;
-  padding-bottom: 4rem;
+  /* padding-left: 12%; */
+  margin: 0 18%;
 }
 
 .icons {
@@ -41,7 +33,35 @@
   filter: invert(1);
 }
 
-.attr {
-  padding-left: 120px;
-  color: lightslategray;
+.left-side {
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.left-text {
+  padding-left: 1.8rem;
+}
+
+.left-icons {
+  float: left;
+  padding-left: 18%;
+}
+
+
+.right-num {
+  margin-left: auto;
+  padding-right: 7.8rem;
+  color: darkgray;
+}
+
+.menu-item-content {
+  display: flex;
+  align-items: center;
+}
+
+.left-hr {
+  margin: 1.25rem 2rem;
+  border: none;
+  border-top: 1px solid darkgray;
 }
